@@ -2,10 +2,10 @@
 let miImage = document.querySelector("img");
 miImage.onclick = function () {
   let miSrc = miImage.getAttribute("src");
-  if (miSrc === "../mozilla/img/google.jpg") {
-    miImage.setAttribute("src", "../mozilla/img/fire.avif");
+  if (miSrc === "img/google.jpg") {
+    miImage.setAttribute("src", "img/fire.avif");
   } else {
-    miImage.setAttribute("src", "../mozilla/img/google.jpg");
+    miImage.setAttribute("src", "img/google.jpg");
   }
 };
 
@@ -28,5 +28,7 @@ miImage.onclick = function () {
   miBoton.onclick = function () {
     estableceNombreUsuario();
   };
+  
+
   
 
